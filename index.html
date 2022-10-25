@@ -31,6 +31,8 @@
 
     <!-- Custom Fonts -->
     <link href="font-awesome.min.css" rel="stylesheet" type="text/css">
+    
+    <script language="javascript" type="text/javascript" src="excanvas.min.js"></script>
 </head>
 
 <body>
@@ -128,7 +130,7 @@
                            <p class="dashboard-title">Requests Summary</p>
                         </div>
                            <div class="panel-body">
-                            <div class="flot-chart" style="height:200px;">
+                            <div class="flot-chart" id="placeholder" style="width:600px;height:300px">
                                 <div class="flot-chart-content" id="flot-requests-summary" style="height:200px;"/>
                             </div>
                         </div>
@@ -180,7 +182,7 @@
     <script src="jquery.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script language="javascript" type="text/javascript" src="excanvas.min.js"></script>
+    
     <script src="bootstrap.min.js"></script>
     <script src="excanvas.min.js"></script>
     <script src="jquery.flot.js"></script>
